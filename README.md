@@ -1,6 +1,7 @@
 ### Project description
-NOTICE! this project is based on sample data so it can't be run
-This project contains sample tests which are written to the form to send comments.
+NOTICE!
+This project is based on sample data so it can't be run.
+This project contains sample functional tests which are written to the form to send comments.
 Tests can be run on Chrome or Firefox browser. Tests are prepared to running on Windows.
 
 ### Technical description

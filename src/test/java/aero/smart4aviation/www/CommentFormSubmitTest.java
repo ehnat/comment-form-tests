@@ -37,7 +37,6 @@ public class CommentFormSubmitTest extends BaseTestCase {
                 .submitForm();
 
         assertThat(commentFormPage.getSuccessMessage()).contains("comment was sent successfully");
-
     }
 
     @Test
@@ -54,7 +53,7 @@ public class CommentFormSubmitTest extends BaseTestCase {
         String name = CONFIGURATION.getValue("name");
         String surname = CONFIGURATION.getValue("surname");
         String email = CONFIGURATION.getValue("email");
-        String age = CONFIGURATION.getValue("age");
+        String age = "200";
 
         CommentFormPage commentFormPage = new CommentFormPage(driver, url).open()
                 .fillRequiredFields(name, surname, email, age)
